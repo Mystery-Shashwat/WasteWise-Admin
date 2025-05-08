@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+// Global
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a{
+  color:inherit;
+}
+// =========================================================================
+
+.navbar {
+  display: flex;
+  font-family: "Open Sans", "Inter";
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 1em 0 1.5em;
+  height: 100vh;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  margin: 0rem;
+  left: 0;
+  width: fit-content;
+  z-index: 999;
+  border-right: 0.5px solid #c8c8c8;
+  &__logo {
+    margin-top: 20px;
+    display: grid;
+    justify-items: center;
+    margin-right: 7px;
+    cursor: pointer;
+    img {
+      height: 71px;
+    }
+  }
+  &__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    margin-top: 20px;
+    height: calc(100% - 132px);
+    overflow: auto;
+    li {
+      margin: 10px 0;
+      border-radius: 12px;
+      width: calc(100% - 4em);
+      transition: all 0.3s ease;
+      cursor: pointer;
+      margin-bottom: 12px;
+      color: var(--darkGrey);
+      width: 100%;
+      a {
+        padding: 18px 20px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        svg {
+          margin: 0 1em 0 0;
+        }
+      }
+      &.active {
+        background-color: var(--primary);
+        color: white;
+      }
+      &:hover {
+        background-color: var(--primary);
+        color: white;
+      }
+    }
+  }
+  .user_action_section {
+    position: relative;
+    margin: 1em 0;
+    .user_action {
+      display: flex;
+      align-items: center;
+      padding: 10px 8px;
+      cursor: pointer;
+      border-radius: 12px;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        background-color: #dddddd;
+      }
+      img,
+      > div,
+      svg {
+        margin: 0 1em;
+      }
+      & > div {
+        user-select: none;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+    .action_buttons {
+      position: absolute;
+      bottom: 5em;
+      left: 0em;
+      width: calc(100% - 2em);
+      padding: 16px 15px;
+      background-color: #dddddd;
+      border-radius: 6px;
+      ul li {
+        display: flex;
+        align-items: center;
+        user-select: none;
+        border-radius: 12px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        color: var(--darkGrey);
+        svg{
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}

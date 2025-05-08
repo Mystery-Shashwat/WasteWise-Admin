@@ -1,0 +1,72 @@
+#services {
+  padding: 4% 8%;
+  background-color: #f4fafc;
+}
+.areaser {
+
+  /* font-size: 20px; */
+  margin-bottom: 20px;
+}
+
+.areaser b{
+  font-size: 3.1rem;
+  color: rgba(21, 148, 212, 1);
+}
+.servicebox {
+  background-color: white;
+  margin: 4% 3%;
+  overflow: hidden;
+
+  padding: 6% 3%;
+  width: 95%;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  border-radius: 25px;
+  transition: transform 1s; 
+}
+.servicebox:hover{
+  transform: scale(1.13);
+  overflow: hidden;
+  
+}
+.sericon {
+  width: 10vw;
+}
+.serhead {
+  font-size: 25px;
+  font-weight: bold;
+}
+.sertext {
+  line-height: 2;
+  text-align: justify;
+}
+
+.service-box{
+  display: flex;
+ 
+  flex-direction: row;
+  height: 201px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width:1250px) {
+  .service-box{
+    height: auto;
+  }
+  .sericon{
+    width: 12vw;
+  }
+}
+
+@media (max-width:900px) {
+  .sericon{
+    width: 35vw;
+  }
+
+  .sv-1{
+    padding: 1rem 2rem;
+  }
+  .servicebox{
+    margin: 10% 0%;}
+}

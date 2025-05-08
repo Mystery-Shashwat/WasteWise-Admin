@@ -1,0 +1,170 @@
+@import"https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap";
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+a {
+    color: inherit
+}
+
+.navbar {
+    display: flex;
+    font-family: "Open Sans", "Inter";
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 1em 0 1.5em;
+    height: 100vh;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    margin: 0rem;
+    left: 0;
+    width: fit-content;
+    z-index: 999;
+    border-right: .5px solid #c8c8c8
+}
+
+
+
+.navbar__logo {
+    margin-top: 20px;
+    display: grid;
+    justify-items: center;
+    margin-right: 5rem;
+    cursor: pointer
+}
+
+.navbar__logo img {
+    height: 30px
+}
+
+#dmobile{
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 46px;
+    cursor: pointer;
+    margin-left: -55px;
+    /* margin-top: 22px; */
+    /* margin-right: 56px; */
+}
+#bar{
+    margin-left: 4.5rem !important;
+    /* margin-right: 9rem; */
+    scale: 1.4;
+    /* margin: 0rem; */
+}
+
+
+@media (max-width:1050px) {
+    #dmobile{
+        display: block;
+    }
+    .navbar{
+        left: -300px;
+    }
+    
+.nav-set{
+    left: 0 !important;
+}
+}
+.navbar__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    margin-top: 20px;
+    height: calc(100% - 132px);
+    overflow: auto
+}
+
+.navbar__links li {
+    /* margin: 10px 0; */
+    border-radius: 12px;
+    width: calc(100% - 4em);
+    transition: all .3s ease;
+    cursor: pointer;
+    /* margin-bottom: 12px; */
+    color: var(--darkGrey);
+    width: 100%
+}
+
+.navbar__links li a {
+    padding: 18px 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none
+}
+
+.navbar__links li a svg {
+    margin: 0 1em 0 0
+}
+
+.navbar__links li.active {
+    background-color: var(--primary);
+    color: #fff
+}
+
+.navbar__links li:hover {
+    background-color: var(--primary);
+    color: #fff
+}
+
+.navbar .user_action_section {
+    position: relative;
+    margin: 1em 0
+}
+
+.navbar .user_action_section .user_action {
+    display: flex;
+    align-items: center;
+    padding: 10px 8px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: all .3s ease-in-out
+}
+
+.navbar .user_action_section .user_action:hover {
+    background-color: #ddd
+}
+
+.navbar .user_action_section .user_action img,
+.navbar .user_action_section .user_action>div,
+.navbar .user_action_section .user_action svg {
+    margin: 0 1em
+}
+
+.navbar .user_action_section .user_action>div {
+    user-select: none;
+    display: flex;
+    flex-direction: column
+}
+
+.navbar .user_action_section .action_buttons {
+    position: absolute;
+    bottom: 5em;
+    left: 0em;
+    width: calc(100% - 2em);
+    padding: 16px 15px;
+    background-color: #ddd;
+    border-radius: 6px
+}
+
+.navbar .user_action_section .action_buttons ul li {
+    display: flex;
+    align-items: center;
+    user-select: none;
+    border-radius: 12px;
+    transition: all .3s ease;
+    cursor: pointer;
+    color: var(--darkGrey)
+}
+
+.navbar .user_action_section .action_buttons ul li svg {
+    margin-right: 10px
+}
+
+/*# sourceMappingURL=Navbar.css.map */

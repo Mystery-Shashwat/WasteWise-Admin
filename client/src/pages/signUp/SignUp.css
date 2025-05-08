@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.signup-bx-1 {
+    display: flex;
+    align-items: center;
+margin-bottom: 17rem;
+    margin-left: 1rem;
+    margin-top: -1rem;
+}
+
+.signup-bx-2 {
+    margin-left: -2rem;
+}
+
+.signup-img1 img {
+    position: absolute;
+    top: 46%;
+    left: 30%;
+    height: 29vw;
+    width: 25vw;
+    z-index: 1;
+}
+
+.sign-in-txt-1 {
+    font-size: 3vw;
+    font-weight: 700;
+    margin-top: .3rem;
+}
+
+.sign-in-txt-2 {
+    font-size: 1.3vw;
+    font-weight: 450;
+    margin-top: .5rem;
+   
+}
+
+.sign-in-txt-2 b {
+    text-decoration: underline;
+  z-index: 5;
+  position: relative;
+}
+
+.sign-in-form {
+    flex-direction: column;
+    display: flex;
+
+
+}
+
+.input-field input {
+    padding-left: 0.8rem;
+    height: 4rem;
+    width: 19rem;
+    opacity: .8;
+    font-family: Poppins;
+    font-size: 1rem;
+    border-radius: .6rem;
+
+    border: #d3d8d84f;
+    background-color: #d3d8d84f;
+    margin: .5rem 0;
+}
+
+input[type=text]:focus,[type=password]:focus,[type=email]:focus,[type=number]:focus {
+    outline: rgb(42, 190, 190) !important;
+    border: 2px solid rgba(6, 153, 227, 1);
+
+
+}
+
+.viewpass {
+    right: 11%;
+    height: 1rem;
+    position: relative;
+}
+
+.forget-text {
+    text-decoration: none;
+    padding-left: 10rem;
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.sign-in-form button {
+  
+    margin-top: 3rem;
+  
+    border: none;
+    color: white;
+  
+    font-size: 1.4rem;
+    cursor: pointer;
+    background-color: rgba(6, 153, 227, 1);
+    border-radius: 0.5rem;
+}
+
+@media (max-width:950px) {
+    .signup-img1 {
+        display: none;
+    }
+
+    .signup-bx-1 {
+        flex-direction: column;
+    }
+
+    .sign-in-txt-1 {
+        font-size: 2.5rem;
+    }
+
+    .sign-in-txt-2 {
+        font-size: 1rem;
+    }
+
+    .signup-bx-3 {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    .signup-bx-1{
+        margin-bottom: 5rem;
+    }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1260px) {
+    .signup-bx-3 {
+        margin-left: 28vw;
+        margin-right: 5vw;
+    }
+
+    .signup-bx-2 {
+        margin-left: 10vw;
+    }
+
+}
+
+@media (min-width:1260px) {
+
+    .signup-bx-2 {
+        margin-left: 6vw;
+    }
+
+    .signup-bx-3 {
+        margin-left: 30vw;
+        margin-right: 5vw;
+    }
+}

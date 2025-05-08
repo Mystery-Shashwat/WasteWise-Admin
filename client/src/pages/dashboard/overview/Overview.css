@@ -1,0 +1,319 @@
+.overview{
+   
+    margin-left: 4vw;
+    margin-top: 3vw;
+}
+.overview-box1{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.overview-box1-text h1{
+    font-weight: 700;
+    font-size: 32px;
+}
+.overview-box1-search{
+margin-left: 30vw !important;
+}
+.overview-box1-search input{
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+padding-left: 6rem;
+    border-radius: 2rem;
+    width: 16rem;
+    height: 4.3rem;
+}
+.overview-box1-search img{
+    height: 2rem;
+    position: relative;
+    left: -78%;
+    width: 2rem;
+}
+
+.overview-box2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+.overview-join{
+    width: 29rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin: 3rem 0rem;
+    height: 16rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 23px;
+    background-color: rgba(21, 148, 212, 1);
+}
+
+.over-join-txt h5{
+    font-size: 1.2rem;
+    margin-top: -2rem;
+    margin-left: 0rem;
+}
+.over-join-txt p{
+    font-weight: 300;
+    font-size: .6rem;
+}
+.over-join-txt button{
+    padding: .7rem;
+    border-radius: 10px;
+    background-color:rgb(248, 250, 251);
+    border: blue;
+    font-size: 16px;
+    color: black;
+    margin-left: 1rem;
+    cursor: pointer;
+  
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.over-join-img img{
+    margin-bottom: -3.5rem;
+    height: 12.3rem;
+}
+.overview-chat{
+margin-left: 10rem;
+}
+
+.chat-box{
+    padding: 1rem 0rem;
+    border-radius: 13px;
+    height: 12rem;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 5rem;
+}
+.chat-flex img{
+    height: 2.5rem;
+    margin: .1rem 0.6rem;
+}
+.chats{
+    margin: .21rem .9rem;
+    flex-direction: column;
+    display: flex;
+}
+.chats p{
+    font-size: .7rem;
+    margin: 0rem;
+}
+.chats-time{
+    font-size: .7rem;
+    margin-left: 8rem;
+}
+.chats h6{
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+@media (max-width:1050px) {
+    .overview-box1{
+        flex-direction: column;
+        transform: scale(.9);
+    }
+    .overview-box2{
+        flex-direction: column;
+        transform: scale(.8);
+        margin-top: -5.3rem;
+        margin-bottom: -5rem;
+    }
+    .overview-chat{
+        margin-left: 0rem;
+    }
+   
+    .main-box .dashboard{
+        margin: 0rem;
+    }
+    .overview{
+        width: 88vw;
+        margin-left: 4vw;
+        flex-direction: column;
+        display: flex;
+        margin-top: 3vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .overview-box1-search{
+        margin-left: 0rem !important;
+    }
+    .overview-box1-search input {
+        width: 14rem !important;
+    }
+}
+
+@media (max-width:500px) {
+    .overview-box1{
+       
+        transform: scale(.8);
+    }
+    .overview-box2{
+      
+        transform: scale(.6);
+        margin-top: -5.3rem;
+        margin-bottom: -5rem;
+    }
+}
+
+.overview-box3{
+    display: flex;
+    flex-direction: row;
+   
+}
+.overview-box4{
+    display: flex;
+    flex-direction: row;
+}
+.overview-box5{
+    display: flex;
+    flex-direction: row;
+}
+.skill-box{
+    padding: 2rem 1rem;
+    border-radius: 27px;
+    max-width: fit-content;
+    height: max-content;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+.skill-text{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+.skill-text img{
+    margin-left: 4.3rem;
+    margin-top: .4rem;
+    height: .4rem;
+}
+
+.skills-txt{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+.skills-txt p{
+    opacity: .6;
+    font-size: .7rem;
+}
+
+.skills-txt1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.skills-txt1 img{
+    height: .7rem;
+}
+.skillss{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.skillsimg{
+    height: 4rem;
+}
+.your-skill-box{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-left: 2rem;
+    display: flex;
+    height: max-content;
+    width: max-content;
+    border-radius: 25px;
+    padding: 2rem;
+    flex-direction: column;
+    /* background: rgb(234, 234, 247); */
+}
+.skill-graph-txt{
+    font-size: .2rem;
+}
+.previous-box{
+    height: 233px;
+    width: 300px;
+
+}
+.earned-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    padding: 2rem 2rem;
+    width: max-content;
+    border-radius: 20px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    justify-content: center;
+}
+
+.box-score{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.score{
+    color: rgba(21, 148, 212, 1);
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.score-txt{
+margin-top: 1rem;
+}
+.score-txt2{
+    text-align: center;
+    font-size: .8rem;
+}
+.earned-box button{
+    padding: .9rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    background-color: white;
+    border: blue;
+    font-size: 16px;
+    color: rgba(6, 153, 227, 1);
+    margin-left: 1rem;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+@media (max-width:1050px) {
+    .overview-box3{
+        flex-direction: column;
+    }
+    .overview-box4{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .overview-box5{
+        flex-direction: column;
+        align-items: center;
+    }
+    .your-skill-box{
+        margin-left: 0rem;
+        margin-top:2rem;
+        margin-bottom:2rem;
+    }
+    .skill-box{
+        margin-top: 2rem;
+    }
+.earned-box{
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+}

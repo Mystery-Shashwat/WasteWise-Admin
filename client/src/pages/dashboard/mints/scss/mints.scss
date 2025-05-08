@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+.insights {
+    box-shadow: 0px 22px 63px 0px rgba(0, 0, 0, 0.07);
+    border-radius: 25px;
+    background: #FFF;
+    // max-width: calc(100vw - 12em);
+    width: 50vw;
+
+    .insight-data {
+        display: flex;
+        justify-content: space-around;
+
+        .text {
+            margin-right: 3em;
+
+            h3 {
+                font-weight: 500;
+                line-height: 51.5px;
+
+            }
+
+            h1 {
+                font-weight: 600;
+                font-size: 4rem;
+                letter-spacing: -1px;
+            }
+        }
+    }
+
+    .insight-details {
+        .detail {
+            min-width: 6em;
+
+            div:nth-child(1)>span {
+                font-size: 12px;
+                color: var(--lightGrey);
+            }
+        }
+    }
+
+
+}
+
+canvas {
+    background-color: var(--primary);
+    border-radius: 22px;
+    padding: 1em 1em 0 1em;
+}
+
+.services {
+    max-width: 63vw;
+
+    .service {
+        background: #FFF;
+        box-shadow: 0px 22px 63px 0px rgba(0, 0, 0, .07);
+        border-radius: 25px;
+        border: none;
+        flex-grow: 1;
+        margin: 0.5em 1em;
+    }
+
+    .details {
+        max-width: 213px;
+        width: 213px;
+        margin: 0 1em;
+
+        .heading {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            font-size: 24px;
+            font-weight: 500;
+
+            span {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+
+
+$breakpoint-xl: 1750px;
+$breakpoint-laptop-lg: 1439px; // 1px less than LG
+
+@media (max-width: $breakpoint-xl) {
+    .insights {
+        width: 55vw;
+    }
+    .services {
+        max-width: 70vw;
+    }
+}
+
+@media (max-width: $breakpoint-laptop-lg) {
+    .insights {
+        width: calc(100% - 5em);
+    }
+
+    .insight-data {
+        .text {
+            h3 {
+                font-size: 20px !important;
+            }
+        }
+    }
+    .services {
+        max-width: 100%;
+    }
+}

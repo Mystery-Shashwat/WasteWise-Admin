@@ -1,0 +1,38 @@
+.profile {
+  text-align: center;
+  padding: 5%;
+}
+.profrow {
+  margin-top: 5%;
+}
+
+.profileimg {
+  border-radius: 75%;
+
+  width: 150px;
+  height: 150px;
+  margin: 4% auto;
+}
+.profiledetails {
+  text-align: left;
+}
+.profquery,
+.userlinks {
+  display: flex;
+}
+.profheading {
+  width: 50%;
+}
+.profvalue {
+  text-align: right;
+  width: 50%;
+}
+.linksanchor {
+  margin-left: auto;
+}
+
+@media (max-width: 992px) {
+  .profiledetails {
+    margin-top: 7%;
+  }
+}

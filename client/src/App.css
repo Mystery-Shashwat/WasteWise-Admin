@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.fl-c {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.fl-r {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.main-box .client {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: column;
+
+}
+
+.main-box .dashboard {
+    width: calc(100vw - 20em);
+    margin-left: 18.8em;
+}
+
+
+@media (max-width: 1024px) {
+    .main-box .dashboard {
+        width: 100vw!important;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

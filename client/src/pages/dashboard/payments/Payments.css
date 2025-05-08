@@ -1,0 +1,246 @@
+.payments-nav,
+.payments {
+  margin-left: 7%;
+  margin-top: 7%;
+}
+.payments-box1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.payments-box1-text {
+  margin-right: auto;
+}
+.payments-box1-text h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.payments-box1-search {
+  margin-right: 6%;
+}
+.payments-box1-search div input {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  border-radius: 2rem;
+  width: 16rem;
+  height: 3.5rem;
+}
+
+.monthyear {
+  display: flex;
+  width: 200px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  background-color: #e4e4e4;
+  font-size: 15px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.form {
+  position: relative;
+}
+
+.form .fa-search {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #9ca3af;
+}
+
+.form span {
+  position: absolute;
+  right: 17px;
+  top: 13px;
+  padding: 2px;
+  border-left: 1px solid #d1d5db;
+}
+
+.left-pan {
+  padding-left: 7px;
+}
+
+.left-pan i {
+  padding-left: 10px;
+}
+
+.form-input {
+  height: 55px;
+  text-indent: 33px;
+  border-radius: 10px;
+}
+
+.form-input:focus {
+  box-shadow: none;
+  border: none;
+}
+
+.tablepayments {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.thpayments,
+.tdpayments {
+  padding: 10px;
+  text-align: left;
+}
+
+.thpayments:nth-child(1),
+.tdpayments:nth-child(1) {
+  width: 10%;
+}
+.thpayments:nth-child(2),
+.tdpayments:nth-child(2),
+.thpayments:nth-child(3),
+.tdpayments:nth-child(3) {
+  width: 30%;
+  text-align: center;
+}
+
+.tdpayments:nth-child(1) label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.tdpayments:nth-child(1) label input {
+  margin-right: 10px;
+}
+
+.tdpayments:nth-child(1) p {
+  margin-top: 5px;
+  text-align: right;
+}
+
+.loadmorebtn {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 6% auto;
+}
+
+.loadmorebtn:hover {
+  background-color: #333;
+}
+
+.ordersumheading {
+  margin: 7% 0;
+}
+.paymentcards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.discount-input {
+  display: flex;
+  align-items: center;
+}
+
+.discount-input input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.discount-input button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.discount-input button:hover {
+  background-color: #333;
+}
+.order-details p {
+  display: flex;
+}
+.order-summary-values {
+  margin-right: auto;
+}
+.privacypolicy {
+  color: var(--gray-500, #64748b);
+  font-size: 12px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.paynowbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.paynowbtn button {
+  width: 159px;
+  height: 56px;
+  border-radius: 16px;
+  border: solid 1px #2189a9;
+  background: #fff;
+  color: #a0d7e7;
+  transition: 0.3s;
+}
+.paynowbtn button:hover {
+  color: #2189a9;
+}
+@media (max-width: 1050px) {
+  .main-box .dashboard {
+    width: 95%;
+  }
+}
+
+@media (max-width: 523px) {
+  .payments-box1-search div input {
+    width: 11rem;
+  }
+}
+
+@media (max-width: 567px) {
+  .monthyeardiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 480px) {
+  .payments-box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .payments-box1-text {
+    margin-right: 0;
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width: 993px) {
+  .paymentcards {
+    flex-direction: row;
+  }
+  .paymentcards h4 {
+    display: none;
+  }
+}
+
+@media (max-width: 780px) {
+  .paymentcards {
+    flex-direction: column;
+  }
+  .paymentcards img {
+    align-self: center;
+    width: 300px;
+  }
+}

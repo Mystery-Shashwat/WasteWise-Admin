@@ -1,0 +1,21 @@
+h1.areaser {
+  margin: 3% 0%;
+  font-size: 40px;
+}
+
+#abtimg {
+  max-width: 100%;
+  height: 350px;
+}
+.abttext {
+  line-height: 2;
+}
+div#about {
+  margin: 4% 3%;
+ 
+}
+
+.about-fluid{
+  padding: 2rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+nav {
+  margin-left: 2rem;
+  align-items: center;
+  margin-right: 2rem;
+  height: 90px;
+  padding: 30px 25px;
+  display: flex;
+  width: 87%;
+  z-index: 10;
+  padding: 20px;
+  margin-bottom: 4rem;
+  margin-top: 3rem;
+   
+  }
+  #navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-logo{
+    height: 70px;
+  width: 70px;
+  margin-right: 7px;
+  }
+  .nav--logo_text {
+    margin-right: auto;
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: .5rem;
+  }
+
+  @media (min-width:1600) {
+    .nav-txt{
+      font-weight: 700;
+      position: absolute;
+      top: 12vh;
+      left: 27vh;
+      letter-spacing: 1px;
+      font-size: 1.6rem;
+      text-shadow: 0px 2px 0px rgba(7, 0, 0, 0.55);
+    }
+  }
+
+  
+  #navbar li {
+    list-style: none;
+    padding: 0 20px;
+   
+    position: relative;
+  }
+  
+  #navbar li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #131313;
+    transition: 0.3s ease-in-out;
+  }
+  #navbar li a:hover,
+  #navbar li a.active {
+    color:rgba(6, 153, 227, 1);
+  }
+  
+  #navbar li a:hover::after,
+  #navbar li a.active::after {
+    content: "";
+    width: 60%;
+    height: 2px;
+    background: rgba(6, 153, 227, 1);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+  }
+  
+  #mobile {
+    display: none;
+    z-index: 10;
+    /* margin-top: 1.7rem; */
+  }
+  
+  #mobile i {
+    color: black;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 950px) {
+    #navbar {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      position: fixed;
+      top: 130px;
+      right: -300px;
+      width: 300px;
+      height: 60vh;
+      background: white;
+      
+      box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+      padding: 40px 0 0 10px;
+      transition: 0.3s ease-in-out;
+    }
+    #bar{
+        margin-left: 5rem !important;
+    }
+  
+    #navbar.active {
+      right: 0px;
+    }
+  
+    #navbar li {
+      margin-bottom: 25px;
+    }
+  
+    #mobile {
+      display: block;
+    }
+  
+    #mobile i {
+      font-size: 24px;
+      cursor: pointer;
+    }
+    .nav-txt{
+      margin-left: -8vh;
+    }
+    nav{
+      margin-bottom: 4rem;
+      margin-left: 0rem;
+    }
+
+  }
+
+  .nav-btn{
+  
+    padding: .9rem;
+    border-radius: 10px;
+    background-color:rgba(6, 153, 227, 1);
+    border: blue;
+    font-size: 16px;
+    color: white;
+    margin-left: 1rem;
+    cursor: pointer;
+  
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }

@@ -1,0 +1,38 @@
+.hirebox {
+  padding: 2% 1%;
+  margin-bottom: 5%;
+  margin-left: 1%;
+  width: 49%;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 25px;
+}
+.poster {
+  display: flex;
+  flex-direction: row;
+}
+.poster h5 {
+  margin: auto 0;
+  padding-left: 15px;
+  font-size: 18px;
+
+  font-weight: 500;
+}
+.hiretitle {
+  font-size: 26px;
+
+  font-weight: 900;
+  margin: 4% auto;
+}
+.apply {
+  display: inline-block;
+}
+.applybtn {
+  color: white;
+  margin: 25px 5px;
+  width: 152px;
+  height: 35px;
+  border: none;
+  border-radius: 48px;
+  background: #1594d4;
+}

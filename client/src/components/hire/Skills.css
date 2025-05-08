@@ -1,0 +1,52 @@
+.skills {
+  margin: 7px 5px;
+  padding: 1% 2%;
+  display: inline-block;
+  border-radius: 48px;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.skills img {
+  margin-right: 5px;
+}
+.ft {
+  background: rgba(255, 202, 64, 0.3);
+}
+.illu {
+  background: rgba(228, 64, 255, 0.3);
+}
+.onsite {
+  background: rgba(64, 255, 72, 0.3);
+}
+.photoshop {
+  background: rgba(64, 198, 255, 0.3);
+}
+.figma {
+  background: rgba(255, 110, 64, 0.3);
+}
+.communication {
+  background: rgba(255, 64, 190, 0.3);
+}
+.english {
+  background: rgba(255, 64, 64, 0.3);
+}
+.js {
+  background: rgba(255, 236, 64, 0.3);
+}
+.reactjs {
+  background: rgba(64, 198, 255, 0.3);
+}
+.seo {
+  background: rgba(255, 202, 64, 0.3);
+}
+.gst {
+  background: rgba(255, 202, 64, 0.3);
+}
+.email {
+  background: rgba(64, 255, 72, 0.3);
+}
+.linkedin {
+  background: rgba(64, 232, 255, 0.3);
+}
