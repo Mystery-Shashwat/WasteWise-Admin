@@ -74,12 +74,12 @@ function App() {
             {/* Dashboard*/}
             {pathname.startsWith("/dashboard") && <D_Navbar />}
             <Routes>
-              <Route exact path="/dashboard" element={<Overview />} />
+              <Route exact path="/dashboard/trackPickUp" element={<Overview />} />
               <Route exact path="/dashboard/analytics" element={<Mints />} />
-              <Route exact path="/dashboard/payments" element={<Payments />} />
+              <Route exact path="/dashboard/rewards" element={<Payments />} />
               <Route
                 exact
-                path="/dashboard/chats"
+                path="/dashboard/support"
                 element={<Chatcomponent />}
               />
               <Route
