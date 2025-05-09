@@ -1,24 +1,7 @@
 import React, { useState, useEffect } from "react";
-import hireavatar from "../../../img/icons/hireavatar.png";
-import {
-  FullTime,
-  OnSiteWork,
-  Photoshop,
-  Illustrator,
-  Figma,
-  LinkedIn,
-  GST,
-  Email,
-  SEO,
-  ReactJS,
-  JavaScript,
-  English,
-  Communication,
-} from "../../../components/hire/Skills";
+import "./WeatherTracker.css";
 
-import "./hire.css";
-
-const Hire = () => {
+const WeatherTracker = () => {
   const [currentDate, setCurrentDate] = useState("");
 
   useEffect(() => {
@@ -56,4 +39,4 @@ const Hire = () => {
   );
 };
 
-export default Hire;
+export default WeatherTracker;

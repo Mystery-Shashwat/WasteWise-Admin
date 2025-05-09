@@ -11,13 +11,13 @@ import Footer from "./components/footer/Footer";
 
 // Dashboard components
 import D_Navbar from "./components/dashboard/Navbar/D_Navbar";
-import Overview from "./pages/dashboard/overview/Overview";
+import Overview from "./pages/dashboard/overview/GCrequests";
 import { useEffect, useState } from "react";
 
 import Mints from "./pages/dashboard/mints/Mints";
 import Payments from "./pages/dashboard/payments/Payments";
 import Pricing from "./pages/pricing/Pricing";
-import Hire from "./pages/dashboard/hire/Hire";
+import WeatherTracker from "./pages/dashboard/weatherTracker/WeatherTracker";
 import Chatcomponent from "./components/chat/Chatcomponent";
 import AuthState from "./context/Auth/AuthState";
 import D_Communities from "./pages/dashboard/communities/D_Communities";
@@ -87,7 +87,7 @@ function App() {
                 path="/dashboard/communities"
                 element={<D_Communities />}
               />
-              <Route exact path="/dashboard/hire" element={<Hire />} />
+              <Route exact path="/dashboard/weatherTracker" element={<WeatherTracker />} />
               <Route
                 exact
                 path="/dashboard/profile"

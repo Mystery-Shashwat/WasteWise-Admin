@@ -1,0 +1,81 @@
+.garbage-container {
+    max-width: 75vw;
+    margin: 30px auto;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background: #fafafa;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 12px;
+  }
+  
+  .tab-button {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .tab-button.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  
+  .requests {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .request-card {
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    position: relative;
+  }
+  
+  .status-badge {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    font-size: 0.85rem;
+    padding: 4px 10px;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .status-badge.pending {
+    background-color: orange;
+  }
+  
+  .status-badge.in-progress {
+    background-color: #17a2b8;
+  }
+  
+  .status-badge.completed {
+    background-color: green;
+  }
+  
+  .no-data {
+    text-align: center;
+    color: #777;
+    font-style: italic;
+  }
+  
