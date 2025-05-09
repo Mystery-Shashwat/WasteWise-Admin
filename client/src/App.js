@@ -23,6 +23,7 @@ import AuthState from "./context/Auth/AuthState";
 import D_Communities from "./pages/dashboard/communities/D_Communities";
 import SetChatUserState from "./context/chat/SetChatUserState";
 import ProfilePage from "./pages/dashboard/profile/profile";
+import SmartDustbinLocations from "./pages/pickUpLocations/SmartDustbinLocations";
 
 function App() {
 
@@ -92,6 +93,11 @@ function App() {
                 exact
                 path="/dashboard/profile"
                 element={<ProfilePage />}
+              />
+              <Route
+                exact
+                path="/dashboard/picupLocations"
+                element={<SmartDustbinLocations/>}
               />
             </Routes>
           </div>

@@ -1,0 +1,47 @@
+.smart-dustbin-container {
+    width: 75vw;
+    margin: 30px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .smart-dustbin-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+  }
+  
+  .dustbin-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .dustbin-card {
+    background: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    transition: transform 0.2s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  .dustbin-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+  
+  .dustbin-card h4 {
+    margin: 0 0 10px;
+    color: #34495e;
+  }
+  
+  .dustbin-card p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
